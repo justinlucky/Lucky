@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --opacity-bg1:rgba(1,1,1,.7);
+  --opacity-bg2:rgba(1,1,1,.5);
+  --primary-bgc1: #111;
+  --primary-bgc2: #333;
+  --primary-bgc3: #555;
+  --dark-text-color: #222;
+  --medium-text-color: #777;
+  --medium-text-color1:#999;
+  --medium-text-color2:#bbb;
+  --light-text-color: #efefef;
+  --bright-text-color:#fff;
+  --link-underline: #4e3afefb;
+  --button-bgc1: #e989e9;
+  --button-bgc1-hover: #a514a5;
+  --button-bgc2: rgb(14,177,255);
+  --button-bgc2-hover: rgb(14, 177, 177);
+  --box-shadow: 0 0 10px #999,
+    0 0 20px #ddd;
+  --box-shadow1: 0 0 5px #999,
+    0 0 10px #ddd;
+  --box-shadow-hover: 0 0 10px #aaa,
+    0 0 20px #fff;
+  --box-shadow1-hover: 0 0 5px #aaa,
+    0 0 10px #fff;
+  --border-style: 1px solid #111;
+  --important-term: gold;
+  --font-h1-phone: 30px;
+  --font-h2-phone: 25px;
+  --font-h3-phone: 20px;
+  --font-welcome:90px;
+  --font-introduction:70px;
+  --font-h1-desktop: 60px;
+  --font-h2-desktop: 50px;
+  --font-h3-desktop: 40px;
+  --font-h1-tablet: 40px;
+  --font-h2-tablet: 35px;
+  --font-h3-tablet: 30px;
+  --font-main-phone: 14px;
+  --font-main-desktop: 24px;
+  --font-main-tablet: 18px;
+  --font-functional-phone: 12px;
+  --font-functional-desktop: 16px;
+  --font-functional-tablet: 14px;
+  --useable-color1: coral;
+  --useable-color2: blue;
+  /* switching color option*/
+  --color-switch-indigo: indigo;
+  --color-switch-blue: blue;
+  --color-switch-purple: purple;
+  --color-switch-cyan: cyan;
+  --color-switch-red: red;
+  --color-switch-pink: pink;
+  --color-switch-green: green;
+  --color-switch-yellow: yellow;
+  --color-switch-orange: orange;
+  --color-switch-coral:coral;
+  --color-switch-brown: brown;
+  --color-switch-hotpink: hotpink;
+  --color-switch-wheat: wheat;
+  --color-switch-salmon: salmon;
+  --color-switch-plum: plum;
+  --color-switch-limegreen: limegreen;
+  --color-switch-turquoise: turquoise;
+  --color-switch-maroon: maroon;
+  --selected-color:cyan;
+  --default-color:cyan;
+}
+

@@ -1,0 +1,342 @@
+.mywork-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-bgc2);
+    overflow: hidden;
+    max-width: 100%;
+}
+
+#mywork {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mywork .pos-relative h3 {
+    color: var(--selected-color);
+    font-size: var(--font-h1-tablet);
+    margin: -170px auto 0 100px;
+}
+
+
+#mywork .pos-relative p {
+    font-size: calc(var(--font-introduction) + 20px);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--medium-text-color);
+}
+
+#mywork .pos-relative .line-separator {
+    background-color: var(--selected-color);
+    height: 2px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 110px;
+}
+
+.services {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.service-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.icon-service {
+    background-color: var(--dark-text-color);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.service-icon {
+    color: var(--selected-color);
+    font-size: var(--font-h3-tablet);
+    cursor: pointer;
+}
+
+.service-matter h2 {
+    color: var(--bright-text-color);
+    font-size: var(--font-h2-phone);
+}
+
+.service-matter p {
+    color: var(--medium-text-color);
+    font-size: var(--font-main-tablet);
+    font-weight: 500;
+}
+
+.book-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-services p {
+    color: var(--light-text-color);
+    font-size: var(--font-main-tablet);
+    text-align: center;
+}
+
+.book-services button {
+    padding: 15px 20px;
+    background-color: var(--selected-color);
+    border-radius: 25px;
+    border: 1px solid var(--bright-text-color);
+    transition: all .3s ease-in;
+}
+
+.book-services button:hover{
+    background-color: var(--opacity-bg1);
+    border: 1px solid var(--selected-color);
+}
+
+.book-services button a {
+    font-size: var(--font-functional-tablet);
+    color: var(--bright-text-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:768px){
+    .mywork-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--primary-bgc2);
+        overflow: hidden;
+        max-width: 100%;
+        margin-top: 10vh;
+    }
+    
+    #mywork {
+        padding: 15px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #mywork .pos-relative h3 {
+        color: var(--selected-color);
+        font-size: var(--font-h1-tablet);
+        margin: -170px auto 0 100px;
+    }
+    
+    
+    #mywork .pos-relative p {
+        font-size: calc(var(--font-introduction) + 20px);
+        text-transform: uppercase;
+        font-weight: bold;
+        color: var(--medium-text-color);
+    }
+    
+    #mywork .pos-relative .line-separator {
+        background-color: var(--selected-color);
+        height: 2px;
+        width: 200px;
+        display: inline-block;
+        margin-left: 110px;
+    }
+    
+    .services {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .service-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .icon-service {
+        background-color: var(--dark-text-color);
+        padding: 25px;
+        border-radius: 15px;
+    }
+    
+    .service-icon {
+        color: var(--selected-color);
+        font-size: var(--font-h2-desktop);
+        cursor: pointer;
+    }
+    
+    .service-matter h2 {
+        color: var(--bright-text-color);
+        font-size: var(--font-h3-tablet);
+    }
+    
+    .service-matter p {
+        color: var(--medium-text-color);
+        font-size: calc(var(--font-main-desktop) + 2px);
+        font-weight: 500;
+    }
+    
+    .book-services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .book-services p {
+        color: var(--light-text-color);
+        font-size: calc(var(--font-main-desktop) + 5px);
+        text-align: center;
+    }
+    
+    .book-services button {
+        padding: 25px 30px;
+        background-color: var(--selected-color);
+        border-radius: 25px;
+        margin: 30px auto;
+        border: 1px solid var(--bright-text-color);
+        transition: all .3s ease-in;
+    }
+    
+    .book-services button:hover{
+        background-color: var(--opacity-bg1);
+        border: 1px solid var(--selected-color);
+    }
+    
+    .book-services button a {
+        font-size: var(--font-h3-phone);
+        color: var(--bright-text-color);
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .icon-service {
+        background-color: var(--dark-text-color);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .service-icon {
+        color: var(--selected-color);
+        font-size: var(--font-h3-desktop);
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .mywork-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--primary-bgc2);
+        overflow: hidden;
+        max-width: 100%;
+        margin-top: 10vh;
+    }
+    
+    #mywork {
+        padding: 15px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #mywork .pos-relative h3 {
+        color: var(--selected-color);
+        font-size: var(--font-h2-tablet);
+        margin: -140px auto 0 80px;
+    }
+    
+    
+    #mywork .pos-relative p {
+        font-size: var(--font-introduction);
+        text-transform: uppercase;
+        font-weight: bold;
+        color: var(--medium-text-color);
+    }
+    
+    #mywork .pos-relative .line-separator {
+        background-color: var(--selected-color);
+        height: 2px;
+        width: 200px;
+        display: inline-block;
+        margin-left: 70px;
+    }
+    
+    .services {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .service-container {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .icon-service {
+        background-color: var(--dark-text-color);
+        padding: 20px;
+        border-radius: 15px;
+    }
+    
+    .service-icon {
+        color: var(--selected-color);
+        font-size: var(--font-h3-desktop);
+        cursor: pointer;
+    }
+    
+    .service-matter h2 {
+        color: var(--bright-text-color);
+        font-size: var(--font-h3-phone);
+    }
+    
+    .service-matter p {
+        color: var(--medium-text-color);
+        font-size: calc(var(--font-main-tablet) + 2px);
+        font-weight: 500;
+    }
+    
+    .book-services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .book-services p {
+        color: var(--light-text-color);
+        font-size: calc(var(--font-main-phone) + 5px);
+        text-align: center;
+    }
+    
+    .book-services button {
+        padding: 15px 20px;
+        background-color: var(--selected-color);
+        border-radius: 25px;
+        margin: 30px auto;
+        border: 1px solid var(--bright-text-color);
+        transition: all .3s ease-in;
+    }
+    
+    .book-services button:hover{
+        background-color: var(--opacity-bg1);
+        border: 1px solid var(--selected-color);
+    }
+    
+    .book-services button a {
+        font-size: var(--font-h3-phone);
+        color: var(--bright-text-color);
+        font-weight: 600;
+        text-decoration: none;
+    }
+}

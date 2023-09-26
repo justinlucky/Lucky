@@ -1,0 +1,153 @@
+.color-switcher {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    padding-right: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-icon{
+    color: var(--light-text-color);
+    font-size: var(--font-main-desktop);
+    cursor: pointer;
+}
+
+.cog-icon {
+    width: 45px;
+    height: 45px;
+    background-color: var(--primary-bgc3);
+    border-radius: 7px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    background-color: var(--selected-color);
+    margin: 5px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    color: var(--bright-text-color);
+    cursor: pointer;
+}
+
+
+.color-container {
+    width: 250px;
+    background-color: var(--light-text-color);
+    padding: 5px;
+}
+
+.color-container h3 {
+    color: var(--medium-text-color);
+    font-size: var(--font-main-tablet);
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
+
+.color-button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.color-button .switch-button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.color-button :nth-child(1) {
+    background-color: var(--color-switch-indigo);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(2) {
+    background-color: var(--color-switch-purple);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(3) {
+    background-color: var(--color-switch-cyan);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(4) {
+    background-color: var(--color-switch-red);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(5) {
+    background-color: var(--color-switch-pink);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(6) {
+    background-color: var(--color-switch-green);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(7) {
+    background-color: var(--color-switch-yellow);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(8) {
+    background-color: var(--color-switch-orange);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(9) {
+    background-color: var(--color-switch-brown);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(10) {
+    background-color: var(--color-switch-hotpink);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(11) {
+    background-color: var(--color-switch-salmon);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(12) {
+    background-color: var(--color-switch-limegreen);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(13) {
+    background-color: var(--color-switch-plum);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(14) {
+    background-color: var(--color-switch-turquoise);
+    border: var(--border-style);
+    cursor: pointer;
+}
+
+.color-button :nth-child(15) {
+    background-color: var(--color-switch-maroon);
+    border: var(--border-style);
+    cursor: pointer;
+}
