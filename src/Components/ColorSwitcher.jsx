@@ -6,7 +6,7 @@ import { faCog } from '@fortawesome/free-solid-svg-icons'
 const ColorSwitcher = ({ onColorChange }) => {
     const defaultColor = 'Cyan';
     const [isOpen, setIsOpen] = useState(false);
-    const [ selectedColor, setSelectedColor] = useState(null);
+    const [ setSelectedColor] = useState(null);
 
     const handleColorButtonClick = (color) => {
         onColorChange(color);
